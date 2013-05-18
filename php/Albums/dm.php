@@ -2,9 +2,9 @@
 <html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" lang="en">
 <?
 	$albums = array( 1 => array("DM", "Dulcem Melodies") );
-	include "http://2scsbfan.info/php/header.php";
-	include "http://2scsbfan.info/php/footer.php";
-	include "http://2scsbfan.info/php/getalbum.php";
+	include "../header.php";
+	include "../footer.php";
+	include "../getalbum.php";
 	
 	$content = <<<EOHTML
 	{$header}
