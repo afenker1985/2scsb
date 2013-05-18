@@ -140,7 +140,7 @@ EOHTML;
 		</title>
 <!-- CSS -->
 		
-		<link rel="stylesheet" type="text/css" href="http://2scsbfan.info//images/HarvestField.css" />
+		<link rel="stylesheet" type="text/css" href="http://2scsbfan.info/images/HarvestField.css" />
 		<link rel="stylesheet" type="text/css" href="http://2scsbfan.info/css/info.css" />
 		<link rel="stylesheet" type="text/css" href="http://2scsbfan.info/css/thickbox.css" />
 		<link rel="stylesheet" type="text/css" href="http://2scsbfan.info/css/style.css" />
@@ -203,7 +203,7 @@ EOHTML;
 <!--header -->
 			<div id="header">			
 
-				<h1 id="logo-text"><a href="http://2scsbfan.info/http://2scsbfan.info" title=""><span>2<sup>nd</sup></span> South Carolina <span>String Band</span></a></h1>
+				<h1 id="logo-text"><a href=":http://2scsbfan.info" title=""><span>2<sup>nd</sup></span> South Carolina <span>String Band</span></a></h1>
 				<h2 id="slogan">Just a fan site...</h2>
 
 				<div id="header-links">
