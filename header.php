@@ -1,7 +1,7 @@
 <?php
 //	error_reporting( E_ALL ^ E_NOTICE );
 	$file = $_SERVER["SCRIPT_NAME"];
-	$break = Explode('/', $file);
+//	$break = Explode('/', $file);
 	
 	$pfile = $break[count($break) - 1];
 		
