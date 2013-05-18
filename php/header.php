@@ -140,10 +140,10 @@ EOHTML;
 		</title>
 <!-- CSS -->
 		
-		<link rel="stylesheet" type="text/css" href="http://2scsbfan.info/images/HarvestField.css" />
-		<link rel="stylesheet" type="text/css" href="http://2scsbfan.info/css/info.css" />
-		<link rel="stylesheet" type="text/css" href="http://2scsbfan.info/css/thickbox.css" />
-		<link rel="stylesheet" type="text/css" href="http://2scsbfan.info/css/style.css" />
+		<link rel="stylesheet" type="text/css" href="images/HarvestField.css" />
+		<link rel="stylesheet" type="text/css" href="css/info.css" />
+		<link rel="stylesheet" type="text/css" href="css/thickbox.css" />
+		<link rel="stylesheet" type="text/css" href="css/style.css" />
 		
 <!-- External JS -->
 		<script type="text/JavaScript" src="JavaScript/jquery-1.3.2.min.js"></script>
