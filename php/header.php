@@ -1,19 +1,19 @@
 <?php
-//	error_reporting( E_ALL ^ E_NOTICE );
+	error_reporting( E_ALL ^ E_NOTICE );
 	$file = $_SERVER["SCRIPT_NAME"];
-//	$break = Explode('/', $file);
+	$break = Explode('/', $file);
 	
 	$pfile = $break[count($break) - 1];
 		
 	if ($pfile == "email.php" || $pfile == "guestbook.php" ) {
 		$m = <<<EOHTML
 			<ul>
-				<li><a href="index.php">Home</a></li>
-				<li><a href="albums.php">Albums</a></li>
-				<li><a href="info.php">Song Info</a></li>
-				<li><a href="covers.php">Media</a></li>
-				<li><a href="links.php">Links</a></li>
-				<li id="current"><a href="email.php">Contact</a></li>
+				<li><a href="http://2scsbfan.info/index.php">Home</a></li>
+				<li><a href="http://2scsbfan.info/albums.php">Albums</a></li>
+				<li><a href="http://2scsbfan.info/info.php">Song Info</a></li>
+				<li><a href="http://2scsbfan.info/covers.php">Media</a></li>
+				<li><a href="http://2scsbfan.info/links.php">Links</a></li>
+				<li id="current"><a href="http://2scsbfan.info/email.php">Contact</a></li>
 			</ul>
 EOHTML;
 		
@@ -21,24 +21,24 @@ EOHTML;
 		if ($pfile == "ss.php" || $pfile == "ihc.php" || $pfile == "dm.php" || $pfile == "hr.php" || $pfile == "lij.php") {
 			$m = <<<EOHTML
 			<ul>
-				<li><a href="index.php">Home</a></li>
-				<li id="current"><a href="albums.php">Albums</a></li>
-				<li><a href="info.php">Song Info</a></li>
-				<li><a href="covers.php">Media</a></li>
-				<li><a href="links.php">Links</a></li>
-				<li><a href="email.php">Contact</a></li>
+				<li><a href="http://2scsbfan.info/index.php">Home</a></li>
+				<li id="current"><a href="http://2scsbfan.info/albums.php">Albums</a></li>
+				<li><a href="http://2scsbfan.info/info.php">Song Info</a></li>
+				<li><a href="http://2scsbfan.info/covers.php">Media</a></li>
+				<li><a href="http://2scsbfan.info/links.php">Links</a></li>
+				<li><a href="http://2scsbfan.info/email.php">Contact</a></li>
 			</ul>
 EOHTML;
 
 		} elseif ( $pfile == "covers.php" || $pfile == "midi.php" ) {
 			$m = <<<EOHTML
 			<ul>
-				<li><a href="index.php">Home</a></li>
-				<li><a href="albums.php">Albums</a></li>
-				<li><a href="info.php">Song Info</a></li>
-				<li id="current"><a href="covers.php">Media</a></li>
-				<li><a href="links.php">Links</a></li>
-				<li><a href="email.php">Contact</a></li>
+				<li><a href="http://2scsbfan.info/index.php">Home</a></li>
+				<li><a href="http://2scsbfan.info/albums.php">Albums</a></li>
+				<li><a href="http://2scsbfan.info/info.php">Song Info</a></li>
+				<li id="current"><a href="http://2scsbfan.info/covers.php">Media</a></li>
+				<li><a href="http://2scsbfan.info/links.php">Links</a></li>
+				<li><a href="http://2scsbfan.info/email.php">Contact</a></li>
 			</ul>
 EOHTML;
 		}
@@ -47,60 +47,60 @@ EOHTML;
 		case "index.php":
 			$m = <<<EOHTML
 			<ul>
-				<li id="current"><a href="index.php">Home</a></li>
-				<li><a href="albums.php">Albums</a></li>
-				<li><a href="info.php">Song Info</a></li>
-				<li><a href="covers.php">Media</a></li>
-				<li><a href="links.php">Links</a></li>
-				<li><a href="email.php">Contact</a></li>
+				<li id="current"><a href="http://2scsbfan.info/index.php">Home</a></li>
+				<li><a href="http://2scsbfan.info/albums.php">Albums</a></li>
+				<li><a href="http://2scsbfan.info/info.php">Song Info</a></li>
+				<li><a href="http://2scsbfan.info/covers.php">Media</a></li>
+				<li><a href="http://2scsbfan.info/links.php">Links</a></li>
+				<li><a href="http://2scsbfan.info/email.php">Contact</a></li>
 			</ul>
 EOHTML;
 			break;
 		case "albums.php":
 			$m = <<<EOHTML
 			<ul>
-				<li><a href="index.php">Home</a></li>
-				<li id="current"><a href="albums.php">Albums</a></li>
-				<li><a href="info.php">Song Info</a></li>
-				<li><a href="covers.php">Media</a></li>
-				<li><a href="links.php">Links</a></li>
-				<li><a href="email.php">Contact</a></li>
+				<li><a href="http://2scsbfan.info/index.php">Home</a></li>
+				<li id="current"><a href="http://2scsbfan.info/albums.php">Albums</a></li>
+				<li><a href="http://2scsbfan.info/info.php">Song Info</a></li>
+				<li><a href="http://2scsbfan.info/covers.php">Media</a></li>
+				<li><a href="http://2scsbfan.info/links.php">Links</a></li>
+				<li><a href="http://2scsbfan.info/email.php">Contact</a></li>
 			</ul>
 EOHTML;
 			break;
 		case "info.php":
 			$m = <<<EOHTML
 			<ul>
-				<li><a href="index.php">Home</a></li>
-				<li><a href="albums.php">Albums</a></li>
-				<li id="current"><a href="info.php">Song Info</a></li>
-				<li><a href="covers.php">Media</a></li>
-				<li><a href="links.php">Links</a></li>
-				<li><a href="email.php">Contact</a></li>
+				<li><a href="http://2scsbfan.info/index.php">Home</a></li>
+				<li><a href="http://2scsbfan.info/albums.php">Albums</a></li>
+				<li id="current"><a href="http://2scsbfan.info/info.php">Song Info</a></li>
+				<li><a href="http://2scsbfan.info/covers.php">Media</a></li>
+				<li><a href="http://2scsbfan.info/links.php">Links</a></li>
+				<li><a href="http://2scsbfan.info/email.php">Contact</a></li>
 			</ul>
 EOHTML;
 			break;
 		case "links.php":
 			$m = <<<EOHTML
 			<ul>
-				<li><a href="index.php">Home</a></li>
-				<li><a href="albums.php">Albums</a></li>
-				<li><a href="info.php">Song Info</a></li>
-				<li><a href="covers.php">Media</a></li>
-				<li id="current"><a href="links.php">Links</a></li>
-				<li><a href="email.php">Contact</a></li>
+				<li><a href="http://2scsbfan.info/index.php">Home</a></li>
+				<li><a href="http://2scsbfan.info/albums.php">Albums</a></li>
+				<li><a href="http://2scsbfan.info/info.php">Song Info</a></li>
+				<li><a href="http://2scsbfan.info/covers.php">Media</a></li>
+				<li id="current"><a href="http://2scsbfan.info/links.php">Links</a></li>
+				<li><a href="http://2scsbfan.info/email.php">Contact</a></li>
 			</ul>
 EOHTML;
 			break;
 		case "contact.php":
 			$m = <<<EOHTML
 			<ul>
-				<li><a href="index.php">Home</a></li>
-				<li><a href="albums.php">Albums</a></li>
-				<li><a href="info.php">Song Info</a></li>
-				<li><a href="covers.php">Media</a></li>
-				<li><a href="links.php">Links</a></li>
-				<li id="current"><a href="email.php">Contact</a></li>
+				<li><a href="http://2scsbfan.info/index.php">Home</a></li>
+				<li><a href="http://2scsbfan.info/albums.php">Albums</a></li>
+				<li><a href="http://2scsbfan.info/info.php">Song Info</a></li>
+				<li><a href="http://2scsbfan.info/covers.php">Media</a></li>
+				<li><a href="http://2scsbfan.info/links.php">Links</a></li>
+				<li id="current"><a href="http://2scsbfan.info/email.php">Contact</a></li>
 			</ul>
 EOHTML;
 			break;
@@ -110,12 +110,12 @@ EOHTML;
 		default:
 			$m = <<<EOHTML
 			<ul>
-				<li><a href="index.php">Home</a></li>
-				<li><a href="albums.php">Albums</a></li>
-				<li><a href="info.php">Song Info</a></li>
-				<li><a href="covers.php">Media</a></li>
-				<li><a href="links.php">Links</a></li>
-				<li><a href="email.php">Contact</a></li>
+				<li><a href="http://2scsbfan.info/index.php">Home</a></li>
+				<li><a href="http://2scsbfan.info/albums.php">Albums</a></li>
+				<li><a href="http://2scsbfan.info/info.php">Song Info</a></li>
+				<li><a href="http://2scsbfan.info/covers.php">Media</a></li>
+				<li><a href="http://2scsbfan.info/links.php">Links</a></li>
+				<li><a href="http://2scsbfan.info/email.php">Contact</a></li>
 			</ul>
 EOHTML;
 			break;
@@ -140,10 +140,10 @@ EOHTML;
 		</title>
 <!-- CSS -->
 		
-		<link rel="stylesheet" type="text/css" href="/images/HarvestField.css" />
-		<link rel="stylesheet" type="text/css" href="css/info.css" />
-		<link rel="stylesheet" type="text/css" href="css/thickbox.css" />
-		<link rel="stylesheet" type="text/css" href="css/style.css" />
+		<link rel="stylesheet" type="text/css" href="http://2scsbfan.info//images/HarvestField.css" />
+		<link rel="stylesheet" type="text/css" href="http://2scsbfan.info/css/info.css" />
+		<link rel="stylesheet" type="text/css" href="http://2scsbfan.info/css/thickbox.css" />
+		<link rel="stylesheet" type="text/css" href="http://2scsbfan.info/css/style.css" />
 		
 <!-- External JS -->
 		<script type="text/JavaScript" src="JavaScript/jquery-1.3.2.min.js"></script>
@@ -203,13 +203,13 @@ EOHTML;
 <!--header -->
 			<div id="header">			
 
-				<h1 id="logo-text"><a href="http://2scsbfan.info" title=""><span>2<sup>nd</sup></span> South Carolina <span>String Band</span></a></h1>
+				<h1 id="logo-text"><a href="http://2scsbfan.info/http://2scsbfan.info" title=""><span>2<sup>nd</sup></span> South Carolina <span>String Band</span></a></h1>
 				<h2 id="slogan">Just a fan site...</h2>
 
 				<div id="header-links">
 					<p>
-						<a href="index.php">Home</a> | 
-						<a href="email.php">Email</a>
+						<a href="http://2scsbfan.info/index.php">Home</a> | 
+						<a href="http://2scsbfan.info/email.php">Email</a>
 					</p>		
 				</div>				
 
@@ -230,17 +230,17 @@ EOHTML;
 				<div id="sidebar">
 					<h1>Albums</h1>
 					<p class="thumbs">
-						<a href="Albums/ss.php"><img src="Pictures/SS.jpg" width="42" height="42" alt="thumbnail" /></a>
-						<a href="Albums/hr.php"><img src="Pictures/HR.jpg" width="42" height="42" alt="thumbnail" /></a>
-						<a href="Albums/ihc.php"><img src="Pictures/IHC.jpg" width="42" height="42" alt="thumbnail" /></a>
-						<a href="Albums/dm.php"><img src="Pictures/DM.jpg" width="42" height="42" alt="thumbnail" /></a>
-						<a href="Albums/lij.php"><img src="Pictures/LIJ.jpg" width="42" height="42" alt="thumbnail" /></a>
+						<a href="http://2scsbfan.info/Albums/ss.php"><img src="Pictures/SS.jpg" width="42" height="42" alt="thumbnail" /></a>
+						<a href="http://2scsbfan.info/Albums/hr.php"><img src="Pictures/HR.jpg" width="42" height="42" alt="thumbnail" /></a>
+						<a href="http://2scsbfan.info/Albums/ihc.php"><img src="Pictures/IHC.jpg" width="42" height="42" alt="thumbnail" /></a>
+						<a href="http://2scsbfan.info/Albums/dm.php"><img src="Pictures/DM.jpg" width="42" height="42" alt="thumbnail" /></a>
+						<a href="http://2scsbfan.info/Albums/lij.php"><img src="Pictures/LIJ.jpg" width="42" height="42" alt="thumbnail" /></a>
 					</p>
 					
 
 					<h1>Sidebar Menu</h1>
 					<ul class="sidemenu">				
-						<li><a href="index.php">Home</a></li>
+						<li><a href="http://2scsbfan.info/index.php">Home</a></li>
 					</ul>	
 
 					<h1>Links</h1>
