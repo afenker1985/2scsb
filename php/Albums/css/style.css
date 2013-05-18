@@ -1,0 +1,127 @@
+h3.info {
+	text-align: right;
+	padding-right: 10px;
+}
+
+
+#lgrad {
+	min-height: 350px;
+	padding-left: 5px;
+}
+
+.title {
+	background-color: #496c9b;
+	color: white;
+	font-weight: bold;
+	font-size: 14pt;
+	text-align: center;
+	width: 250px;
+}
+.t {
+	width: 200px;
+	font-size: 12pt;
+}
+
+.cover {
+	width: 250px;
+	height: 250px;
+	border: 1px #000 solid;
+}
+
+.bcover {
+	width: 50px;
+	height: 50px;
+}
+
+.back {
+	width: 250px;
+	height: 250px;
+	border: 1px #000 solid;
+	background: gray;
+}
+/*.tlist {
+	height: 200px;
+	overflow: auto;
+}*/
+
+.etrack {
+	background-color: #282828;
+	color: white;
+	font-size: 9pt;
+	height: 30px;
+}
+.etrack:hover {
+	background-color: #414041;
+}
+.otrack {
+	background-color: #353535;
+	color: white;
+	font-size: 9pt;
+	height: 30px;
+}
+
+.etrack a, .otrack a {
+	display: block;
+	padding-top: 10px;
+}
+
+.otrack:hover {
+	background-color: #414041;
+}
+
+.tinfo {
+	border-bottom: 1px solid #414041;
+	width: 207.5px;
+	overflow: hidden;
+	padding-left: 10px;
+}
+.ttime {
+	width: 40px; 
+	border-left: 1px solid #414041;
+	border-bottom: 1px solid #414041;
+	text-align: center;
+}
+.tnumber {
+	width: 27.5px; 
+	border-right: 1px solid #414041;
+	border-bottom: 1px solid #414041;
+}
+
+div.bg {
+	width: 265px;
+	height: 250px;
+	border: 1px solid black;
+	color: #000;
+	overflow: auto;
+	font-size: 9.5pt;
+	font-family: Times;
+	font-weight: bold;
+}
+div.bg ol {
+	margin-left: 0px;
+}
+div.bg a {
+	color: black;
+	text-decoration: underline;
+}
+div.bg a:hover {
+	text-decoration: none;
+}
+dl {
+	margin-left: 25px;
+	margin-bottom: 20px;
+}
+dt {
+	color: #88ac0b;
+	font-size: 160%;	
+	font-weight: bold;
+	padding-bottom: 2px;
+	padding-top: 5px;
+}
+dd {
+	margin-left: 15px;
+	font-weight: bold;
+}
+
+.gallery { margin: 0; padding: 0; }
+ul.gallery li { display: inline; }
